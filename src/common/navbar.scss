@@ -1,0 +1,25 @@
+@import "../variables.scss";
+
+.my-navbar {
+  // box-shadow: $boxShadow;
+
+  button {
+    margin-right: 2rem;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      text-transform: capitalize;
+      margin: 0 !important;
+      padding: 0 0.5rem !important;
+    }
+
+    .active {
+      padding: 0 0.5rem !important;
+      margin: 0 !important;
+      text-transform: capitalize;
+      color: $primaryColor;
+      border-bottom: 1px solid $primaryColor;
+    }
+  }
+}

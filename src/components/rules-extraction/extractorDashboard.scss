@@ -1,0 +1,48 @@
+.dashboard-container {
+  .dashboard-wrapper {
+    padding: 1rem;
+
+    .col-wrapper {
+      padding: 0.5rem;
+
+      .paper-wrapper {
+        padding: 0.5rem 1rem;
+        height: 6rem;
+
+        p {
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        .title {
+          font-size: 12px;
+          font-weight: bold;
+          color: #546e7a;
+        }
+
+        .value {
+          margin-left: 0.2rem !important;
+          margin-top: -5px !important;
+          font-size: 1.8rem;
+          color: #000;
+        }
+
+        .flow {
+          margin-top: 0.5rem !important;
+          font-size: 11px;
+          color: #546e7a;
+
+          i {
+            font-size: 15px;
+          }
+        }
+
+        .icon-wrapper {
+          i {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
+}

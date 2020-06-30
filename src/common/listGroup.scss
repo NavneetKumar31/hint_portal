@@ -1,0 +1,14 @@
+.list-group {
+  .list-group-item {
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: capitalize;
+
+    &:hover {
+      z-index: 2;
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+  }
+}

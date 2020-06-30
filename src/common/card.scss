@@ -1,0 +1,61 @@
+@import "../variables.scss";
+
+.card-wrapper {
+  padding: 1rem;
+
+  .my-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: $boxShadow;
+
+    .header {
+      padding: 0.5rem 1rem;
+      border-bottom: 1px solid #ccc;
+
+      .avatar {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        padding-left: 14px;
+        border: 1px solid #ccc;
+        background-color: #eee;
+        font-weight: bold;
+        border-radius: 50%;
+      }
+
+      p {
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+
+      .title {
+        margin-top: 5px !important;
+        font-size: 1.1rem;
+      }
+
+      .sub-title {
+        font-size: 0.9rem;
+        margin-top: -5px !important;
+      }
+    }
+
+    .content {
+      padding: 1rem;
+
+      p {
+        font-size: 14px;
+        text-align: justify;
+        margin: 0 !important;
+      }
+    }
+
+    .footer {
+      padding: 0.5rem;
+      border-top: 1px solid #ccc;
+
+      .btn {
+        box-shadow: none !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.breadcrumb-wrapper {
+  margin: 0 !important;
+
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 0.25rem;
+
+    .breadcrumb-item {
+      text-transform: capitalize;
+      font-size: 13px;
+    }
+
+    .last {
+      a {
+        cursor: default;
+        color: #000 !important;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

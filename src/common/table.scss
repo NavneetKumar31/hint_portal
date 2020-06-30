@@ -1,0 +1,40 @@
+@import "../variables.scss";
+
+.table-wrapper {
+  border-radius: 5px;
+  box-shadow: $boxShadow;
+  background-color: #fff;
+
+  table {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+
+    thead {
+      th {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding: 0.5rem;
+        color: #546e7a;
+      }
+    }
+
+    tr {
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    tbody {
+      td {
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 15px;
+
+        button {
+          margin: 0 0.2rem;
+        }
+      }
+    }
+  }
+}

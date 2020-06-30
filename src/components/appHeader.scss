@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.my-app-header {
+  box-shadow: $boxShadow !important;
+
+  .navbar-brand {
+    color: #fff !important;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+  }
+}

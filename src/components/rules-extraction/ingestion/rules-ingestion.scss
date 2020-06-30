@@ -1,0 +1,19 @@
+@import "../../../variables.scss";
+
+.ingestion-container {
+  height: 100%;
+
+  .row {
+    height: 100%;
+
+    .vertical-tabs-wrapper {
+      border-right: 1px solid #ccc;
+      height: 100%;
+      background-color: #fff;
+    }
+
+    .ingestion-table-wrapper {
+      padding: 0.5rem 2rem;
+    }
+  }
+}
